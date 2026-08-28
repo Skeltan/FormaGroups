@@ -17,7 +17,7 @@ st.write("Si vous n'avez pas encore préparé vos données, téléchargez ce mod
 
 # On ouvre le fichier présent dans le même dossier que app.py
 try:
-    with open("modèle_à_remplir.xlsx", "rb") as template_file:
+    with open("modele_formagroups.xlsx", "rb") as template_file:
         st.download_button(
             label="📝 Télécharger le modèle Excel",
             data=template_file, # Streamlit lit les données binaires du fichier
